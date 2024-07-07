@@ -1,0 +1,10 @@
+.wrapper{
+    position:absolute; 
+    top: 22vh; 
+    left: 42vw; 
+}
+
+body{
+    background-color: rgb(87, 54, 54);
+
+}

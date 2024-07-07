@@ -1,0 +1,42 @@
+.images1{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+.images1 img{
+    height: 80px
+}
+
+
+.visaCard{
+    display:flex; 
+    background: linear-gradient(30deg, #003366, #98FF98);
+    padding:15px; 
+    width: 34vw; 
+    border-radius: 5px;
+
+
+}
+
+
+.text{
+        
+    justify-content: space-between;
+    color: whitesmoke; 
+    font-family: 'Palatino Linotype';
+    font-weight: bold;
+}
+
+
+.texts{
+    display:block; 
+}
+
+
+.hashes{
+    letter-spacing: 5px;
+    font-weight:bolder;
+    font-size: 30px; 
+}

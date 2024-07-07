@@ -1,0 +1,177 @@
+html{
+  background-color: rgba(192, 192, 192, 0.63) ;
+  
+}
+
+
+.react{
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    top:15vh; 
+    bottom: 20vh; 
+    font-family: 'Poppins', sans-serif; 
+    
+  
+  }
+  
+  .content{
+    display:flex; 
+    justify-content: space-between;
+    width:80vw;
+    height:70vh;  
+    padding: 30px; 
+    position:relative; 
+    left: 4vw; 
+    right:10vw; 
+    bottom: 5vh; 
+    border-radius: 20px;
+    background-color: rgb(192, 192, 192);
+    box-shadow: 6px 6px 7px  rgba(0, 0, 0, 0.600);
+    
+  }
+  
+  .object1{
+    text-align: left;
+    position:relative; 
+    left:10vw; 
+  }
+  
+  .object2{
+    background: linear-gradient(30deg,  rgb(155, 25, 155), rgb(29, 29, 156));
+    height:90%; 
+    width: 25%;
+    border-radius: 20px; 
+    position: relative; 
+    right: 10vw; 
+    display:block; 
+    padding: 30px; 
+    bottom: 8px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.700); 
+  }
+  
+  .topRow{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .midRow{
+    display:block;
+  
+  }
+  
+  .bottomRow{
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .sun img{
+    
+    height:8rem ; 
+    position:relative;
+    left: 24%;  
+    top: 1rem; 
+  }
+  
+  .search img{
+    height:2rem ; 
+    
+  
+  }
+  
+  .image img{ 
+    height:3rem; 
+  }
+  
+  .temperature h1{
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px; 
+    
+  }
+  
+  .city h3{
+    text-align: center;
+    letter-spacing: 1px;
+    color: whitesmoke;
+    padding: 8px; 
+  }
+  
+  .percentage {
+    display: flex; 
+    flex-direction: row;
+    
+  }
+  
+  .speed{
+    display: flex; 
+    flex-direction: row;
+    
+  }
+  
+  .text h4{
+    color:whitesmoke; 
+    letter-spacing: 1px;
+  }
+  
+  .input input {
+    border-radius: 20px;
+    width: 150%; 
+    height: 2rem; 
+    position: relative;
+    outline:none; 
+    border: 5px solid white; 
+    
+  
+  }
+
+  #text{
+    position: relative; 
+    bottom: 25px; 
+    left: 10px; 
+  }
+  
+  
+  .search button{
+    border-radius: 30px;
+    border: 0px;
+    border: 3px solid white; 
+    position: absolute; 
+    right: 1rem; 
+    
+  
+  }
+  
+ 
+ 
+  
+  
+  .darkTheme button img{
+    height: 40px; 
+    box-shadow: 10px black;
+   
+    
+  }
+  
+  .darkTheme button{
+    border-radius: 20px ;
+    border: 8px solid whitesmoke; 
+    box-shadow: 4px 4px 4px black;
+    
+  }
+  
+  .darkTheme{
+    position: absolute; 
+    left: 93vw;
+    bottom: 65vh; 
+  
+    
+     
+  }
+  
+  #text1{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.644); 
+  }
+ 
+    
+  

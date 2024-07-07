@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="../CSS/WeatherApp.css">
+
+</head>
+<body>
+    <div class="react">
+        <div class="darkTheme"><button><img src="../Images/moon.png" alt="can't find the image" /></button></div>
+        <div class="content">
+          <div class="object1">
+            <p><h1 id="text1">Weather </h1> <br />
+              <h3 id="text2">SEARCH YOUR COUNTRY <br id="text3"/> TO CHECK WEATHER </h3>  
+              <br id="text4"/> <h3 id="text5">SEE THE IMIDIATE <br id="text6"/> CHANGES</h3></p>
+          </div>
+          <div class="object2">
+              <div class="topRow">
+                <div class="input">
+                  <input type="text" placeholder="  Enter The City / Country" />
+                </div>
+                <div class="search">
+                  <button><img src="../Images/search.png" alt="can't find the image" /></button>
+                </div>
+              </div>
+              <div class="midRow">
+                <div class="sun">
+                    <img src="../Images/clear.png" alt="Didn't get the Image" id="weatherImg"/>
+                </div>
+      
+                <div class="temperature">
+                      <h1 id="temperature">20ºC</h1>
+                </div>
+                
+                <div class="city" id="city">
+                  <h3 id="city1">Delhi</h3>
+                </div>
+              </div>
+              <div class="bottomRow">
+                <div class="humidity">
+                  <div class="percentage">
+                    <div class="image">
+                      <img src="../Images/humidity.png" alt="" />
+                    </div>
+      
+                    <div class="text">
+                      <h4 id="number1">49</h4>
+                    </div>
+                    <div class="text"><h4>%</h4></div>
+                  </div>
+                  
+                  <div class="text">
+                      <h4 id="text" >Humidity</h4>
+                  </div>
+                </div>
+      
+                <div class="windspeed">
+                  <div class="speed">
+                    <div class="image">
+                      <img src="../Images/wind.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="number2">50</h4>
+                    </div>
+                    <div class="text"> <h4>Km/h</h4></div>
+                  </div>
+      
+                  <div class="text">
+                    <h4 id="text">WindSpeed</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<script src="../Javascript/WeatherApp.js"></script>
+
+</html>

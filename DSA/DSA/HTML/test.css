@@ -1,0 +1,138 @@
+.images{
+    display: flex; 
+    justify-content:  space-around;
+    
+    
+    
+}
+
+.user{
+    background-color:#808080 ;
+    padding: 30px; 
+    border-radius: 10px;
+    height: 15vw;
+}
+
+.user img{
+    height: 100px; 
+    position: relative; 
+    left: 40px; 
+}
+
+
+
+.user p{
+    letter-spacing: 1px; 
+    word-spacing: 10px;
+    color: whitesmoke; 
+    font-size: 30px ; 
+}
+
+.images1{
+    display: flex; 
+    justify-content: space-between;
+    
+}
+
+
+.images1 img{
+    height: 80px
+}
+
+
+.text{
+    display: flex; 
+    justify-content: space-between;
+    color: whitesmoke; 
+    font-family: 'Palatino Linotype';
+    font-weight: bold;
+    
+}
+
+
+.texts{
+    display:block; 
+}
+
+
+.hashes{
+    letter-spacing: 5px;
+    font-weight:bolder;
+    font-size: 30px; 
+}
+
+body{
+    background-color: #FFFFF0;
+
+}
+
+.VisaCardBack{
+
+    background: linear-gradient(30deg, #003366, #98FF98);
+    padding:15px; 
+    width: 34vw;
+    height: 16vw;  
+    border-radius: 5px;
+    position: fixed;
+    bottom: 50%; 
+    text-align: right; 
+    z-index: 0; 
+
+    
+    
+}
+
+.visaCard{
+    display:block; 
+    background: linear-gradient(30deg, #003366, #98FF98);
+    padding:15px; 
+    width: 34vw; 
+    border-radius: 5px;
+    position: relative; 
+    z-index: 1;
+    transition: all; 
+}
+
+
+.visa img{
+    height: 80px; 
+    
+    
+}
+
+.whiteBox{
+    width: 80%; 
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 5px;
+    position: relative; 
+    right: 5px; 
+}
+
+.blackBox{
+    width:98%;
+    background-color: black;
+    padding: 20px; 
+    position: relative; 
+    right: 15px 
+
+}
+
+
+
+.wrapper{
+    display: block; 
+
+}
+
+
+
+.wrapper p {
+    color: white; 
+    font-family: sans-serif;
+}
+
+.visaCard:hover{
+    transform: rotateY(180);
+    
+}

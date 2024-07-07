@@ -1,0 +1,10 @@
+body ol{
+    background-color: green;
+    border: 20px solid hsl(0, 0%, 0%);
+    margin: 90px; 
+    float: left; 
+}
+
+body ul{
+    border: 10px solid hsl(0, 0%, 0%);
+}

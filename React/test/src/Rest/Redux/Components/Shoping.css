@@ -1,0 +1,19 @@
+
+.shopingTorlleyImage{
+   width:3.2rem; 
+   position: absolute; 
+   right:3rem;
+   top:3rem;
+}
+
+.numberOfItems{
+   width:3.2rem; 
+   position: absolute; 
+   right:1rem;
+   top:1rem; 
+   font-size:large; 
+   font-weight: bold;
+   background-color:rgba(192, 192, 192, 0.639); 
+   padding: 5px; 
+   border-radius: 80px; 
+}
